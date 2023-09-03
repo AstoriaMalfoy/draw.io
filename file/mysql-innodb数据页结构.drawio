@@ -1,9 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T14:51:09.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="msYS99TFgO9Q2uQAuSVl" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-03T15:42:21.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5Wom9bPKv0MpjnESL2RD" version="21.6.9" type="github">
   <diagram name="第 1 页" id="8feNu8RAte_IWlyrpGBa">
-    <mxGraphModel>
+    <mxGraphModel dx="766" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="420" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-3" value="FILE HEADER (38byte)&lt;br&gt;记录页属性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-5" value="FIL_PAGE_SPACE_OR_CHECK_SUM (4byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="315" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-6" value="FILE_PAGE_OFFSET (4byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="338" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-7" value="FILE_PAGE_PREV (4byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="362" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-8" value="FILE_PAGE_NEXT (4byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="385" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-9" value="FILE_PAGE_LSN (8byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="409" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-10" value="FILE_PAGE_TYPE (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="432" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-11" value="FIL_PAGE_FILE_PLUSH_LSN (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="456" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-12" value="FILE_PAGE_ARCH_LOG_NO_OR_SPACE_ID (4byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="479" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-17" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="520" width="420" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-18" value="PAGE HEADER (56byte)&lt;br&gt;记录页状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="520" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-19" value="PAGE_N_DIR_SLOTS (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="555" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-20" value="PAGE_HEAP_TOP (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="578" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-21" value="PAGE_N_HEAP (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="602" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-22" value="PAGE_FREE (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="625" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-23" value="PAGE_GARBAGE (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="649" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-24" value="PAGE_LAST_INSERT (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="672" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-25" value="PAGE_LAST_INSERT (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="696" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-26" value="PAGE_N_DIRECTION (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="719" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-27" value="PAGE_N_RECS (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="743" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-28" value="PAGE_MAX_TRX_ID (8byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="766" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-29" value="PAGE_LEVEL (2byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="790" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-30" value="PAGE_INDEX_ID (8byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="813" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-31" value="PAGE_BTR_SEG_LEAF (10byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="837" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-32" value="PAGE_BTR_SEG_TOP (10byte)" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="860" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-33" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="180" y="900" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-34" value="INFIMUN + SUPERNUM RECORDS&lt;br&gt;最大和最小虚拟行记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="900" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-35" value="INFIMNU RECORD" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="935" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-36" value="SUPERNUM RECORD" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="958" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-50" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1000" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-51" value="RECORDS&lt;br&gt;存储真实的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1000" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-52" value="USER RECORDS[...]" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1035" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-53" value="FREE SAPCE" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1058" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-54" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1100" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-55" value="PAGE DIRECTORY&lt;br&gt;数据目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1100" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-56" value="Slots[...]" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1135" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-61" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1169" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-62" value="FILE TRAILER (8byte)&lt;br&gt;文件结尾信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1169" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-63" value="CHECKSUM（4byte）" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1204" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uYnEo6MzuyzD4wBmZsFd-64" value="FIL_PAGE_LSN（4byte）" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1227" width="390" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
